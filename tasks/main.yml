@@ -3,4 +3,4 @@
 
 #curl -sSL https://install.stream-pi.com/client/raspberry-pi | bash
 - name: Install Stream-Pi by using it's installation script
-  cmd: curl -sSL https://install.stream-pi.com/client/raspberry-pi | bash  -s -- -kn -d https://github.com/stream-pi/client/releases/download/1.0.0-EA%2B3/stream-pi-client-linux-arm32-1.0.0-EA+3-executable.zip
+  command: curl -sSL https://install.stream-pi.com/client/raspberry-pi | bash  -s -- -kn -d https://github.com/stream-pi/client/releases/download/1.0.0-EA%2B3/stream-pi-client-linux-arm32-1.0.0-EA+3-executable.zip
